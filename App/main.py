@@ -5,7 +5,6 @@ from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from time import sleep
 
-
 class Whatsappbot():
     def __init__(self):
         self.__path = str(pathlib.Path(__file__).parent.absolute())
